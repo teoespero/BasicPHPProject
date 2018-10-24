@@ -9,16 +9,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teodulfo Espero | Resume</title>
+    <title>Teodulfo Espero | Globe Bank CMS Project</title>
 </head>
 <body>
-    <div class="container">
+    <header>
+        <div class="container">
+            <h1>Globe Bank CMS</h1>
+        </div>
+    </header>
 
-    </div>
+    <nav>
+            <ul>
+                <li><a href="index.php">Menu</a></li>
+            </ul>
+    </nav>
+
+    <footer>
+        &copy; <?php echo date('Y'); ?> Globe Bank International
+    </footer>
 
     <!-- required JS files -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
