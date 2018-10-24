@@ -1,3 +1,18 @@
+<!--    
+    Teo Espero
+    BS Cloud and Systems Administration
+    Western Governors University
+
+    #Web-Dev-Bootcamp-Lynda
+-->
+
+<!-- handle the title  -->
+<?php 
+    if(!isset($page_title)){
+        $page_title = 'Staff Menu';
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teodulfo Espero | Staff Area - Globe Bank CMS Project</title>
+    <?php echo '<title>' . $page_title . ' - Globe Bank CMS Project | teoespero ' . '</title>'; ?>
 </head>
 <body>
     <header>
